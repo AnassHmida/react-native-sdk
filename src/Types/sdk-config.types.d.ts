@@ -5,7 +5,7 @@ import { Order } from 'Types/order.types';
 import { EventTypes } from 'Types/events.types';
 
 export type TransakConfig = {
-  environment: Environments.STAGING | Environments.PRODUCTION;
+  environment: Environments.STAGING | Environments.PRODUCTION | Environments.BETA;
 } & QueryParams;
 
 export type OnTransakEvent = (event: EventTypes, data: Order) => void;
