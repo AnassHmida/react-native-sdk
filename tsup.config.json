@@ -10,6 +10,6 @@
   ],
   "minify": true,
   "outDir": "lib",
-  "sourcemap": true,
+  "sourcemap": false,
   "splitting": true
 }
